@@ -7,9 +7,13 @@ class Program2{
         char target2 = '3';
         if(findChar(str,target2)==1){
             System.out.println("Yes target exists in string ");
+        }else {
+            System.out.println("No it dont lies in the String");
         }
         if(findInt(arr,target1)==1){
             System.out.println("Yes the target exists in Array ");
+        }else {
+            System.out.println("No it dont lies in the Array");
         }
     }
 static int findChar(String str,char target){
